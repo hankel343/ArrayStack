@@ -26,7 +26,7 @@ int main()
 		system("cls");
 
 		ProcessInput(input, StackObj);
-	} while (input != 'Q');
+	} while (toupper(input) != 'Q');
 
 	cout << "Goodbye...\n";
 	return 0;
